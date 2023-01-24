@@ -6,11 +6,6 @@
 
 /*This makes this container a flex container and its children nav items*/
 
-body{
-    width: 100%;
-    height: auto;
-}
-
 .header{
     display: flex;
     justify-content: space-evenly;
@@ -18,8 +13,8 @@ body{
 }
 
 .nav_links{
-    display: flex;
-    flex-direction: row;
+    /* Default flex direction is row, horizontal */
+    display: flex; 
 }
 
 li, a{
@@ -45,19 +40,16 @@ li, a{
     color: white;
 }
 
-
 /* SECTION */
 .intro_section{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .title_intro{
     margin-top: 45px;
-    font-size: 45px;
+    font-size: 42px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .lobe_title_intro{
@@ -68,18 +60,15 @@ li, a{
 }
 
 .intro_content{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 8px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .img_section{
-    display: flex;
-    justify-content: center;
     margin-top: 45px;
     width: 50%;
-    height: auto;
 }
 
 .content_section{
@@ -110,7 +99,7 @@ li, a{
 
 
 #footer_link{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #comment_icon, #twitter_icon, #youtube_icon{
@@ -118,10 +107,6 @@ li, a{
     margin-top: 10px;
     padding-left: 10px;
 }
-
-
-/* Screen for tablet */
-
 
 
 /* Screen size for phone */
@@ -159,7 +144,7 @@ li, a{
 
     .lobe_title_intro{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.4rem;
+        font-size: 18px;
     }
 
     .intro_content{
@@ -173,13 +158,13 @@ li, a{
         margin-top: auto;
     }
     .content_section{
-        font-size: 1rem;
+        font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     .footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 2fr;
     }
 
 }
