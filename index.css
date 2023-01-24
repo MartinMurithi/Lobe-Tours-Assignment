@@ -40,6 +40,10 @@ li, a{
     color: white;
 }
 
+i, #hambuger{
+    
+}
+
 /* SECTION */
 .intro_section{
     display: flex;
@@ -85,7 +89,7 @@ li, a{
     padding: 12px;
     width: 130px;
     border-radius: 35px;
-    border-style: none;
+    border-style:none;
     color: white;
 }
 
@@ -164,7 +168,7 @@ li, a{
 
     .footer{
         display: grid;
-        grid-template-columns: 3fr 2fr;
+        grid-template-columns: 2fr 2fr;
     }
 
 }
