@@ -45,6 +45,7 @@ li, a{
     color: white;
 }
 
+
 /* SECTION */
 .intro_section{
     display: flex;
@@ -133,8 +134,6 @@ li, a{
     }
 
     .container{
-        width: 100%;
-        height: auto;
         margin: 10px;
     }
 
@@ -171,7 +170,6 @@ li, a{
         margin-right: 5px;
     }
     .img_section{
-        max-width: 100%;
         margin-top: auto;
     }
     .content_section{
